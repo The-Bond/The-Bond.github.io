@@ -127,10 +127,11 @@
 - name: 薄荷綠
   feiyan: "https://paradise.feiyan.tw/01_article/05_author.php?id=42680"
   other:
-    - site: facebook
+    - site: Facebook
       link: "https://www.facebook.com/mintgreenisland/"
-  facebook: 
-  website: "https://cs820827.wixsite.com/mintgreenisland"
+      
+    - site: Personal Website
+      link: "https://cs820827.wixsite.com/mintgreenisland"
 
 - name: 微笑那一刻
   feiyan: "https://paradise.feiyan.tw/01_article/05_author.php?id=42535"
