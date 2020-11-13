@@ -54,8 +54,6 @@
            <tr>
              <th>name</th>
              <th>other</th>
-             <th>media platform</th>
-             <th>personal website</th>
            </tr>
            {% for i in site.data.Members %}
            <tr>
@@ -64,9 +62,8 @@
                {% for x in i.other %}
                <a href={{x.link}}>{{x.site}}</a>
                {% endfor %}
+               <br />
              </td>
-             <td><a href={{i.facebook}}>{{i.facebook}}</a></td>
-             <td><a href={{i.website}}>{{i.website}}</a></td>
            </tr>
            {% endfor %}
         </table> 
