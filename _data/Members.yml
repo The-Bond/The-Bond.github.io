@@ -127,7 +127,9 @@
 - name: 薄荷綠
   feiyan: "https://paradise.feiyan.tw/01_article/05_author.php?id=42680"
   other:
-  facebook: "https://www.facebook.com/mintgreenisland/"
+    - site: facebook
+      link: "https://www.facebook.com/mintgreenisland/"
+  facebook: 
   website: "https://cs820827.wixsite.com/mintgreenisland"
 
 - name: 微笑那一刻
