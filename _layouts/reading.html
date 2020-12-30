@@ -50,8 +50,8 @@
 
       <section id="main_content">
         {{ content }}
+        {% assign doclist = site.data.samplelist.docs | sort: 'author'  %}
         <ul>
-          {% assign doclist = site.data.samplelist.docs | sort: 'author'  %}
           {% for i in doclist %}
           <li><a href="{{ i.url }}">{{ i.title }}</a></li>
           {% endfor %}
