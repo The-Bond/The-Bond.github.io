@@ -51,7 +51,8 @@
       <section id="main_content">
         {{ content }}
         <ul>
-          {% for i in site.data.[page.data].docs | sort: 'author' %}
+          {% assign doclist = site.data.samplelist.docs | sort: 'author'  %}
+          {% for i in doclist %}
           <li><a href="{{ i.url }}">{{ i.title }}</a></li>
           {% endfor %}
         </ul>
