@@ -1,10 +1,12 @@
 # The-Bond.github.io Introduction
-    |-Members
+    |-About Us
+    |   |-Members
+    |   |-Rules
+    |
     |-Activities
     |   |-Reading
     |   |-Writing
     |
-    |-Rules
     
 # File Format
     _data: yml
