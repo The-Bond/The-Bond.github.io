@@ -53,7 +53,9 @@
         {% for i in site.data.[page.data] %}
         <h2>{{ i.title }}</h2>
           {% for x in i.sub %}
+          <ul>
             <li><a href="{{ x.url }}">{{ x.page }}</a></li>
+          </ul>
           {% endfor %}
         {% endfor %}
         <hr />
