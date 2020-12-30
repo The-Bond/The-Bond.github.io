@@ -1,4 +1,0 @@
----
-data: Content-Activities
----
-# Activities
