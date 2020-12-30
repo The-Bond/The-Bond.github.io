@@ -1,10 +1,17 @@
-- title: Members
-  url: https://the-bond.github.io/Members/README.html
+- title: About Us
   sub:
-  
+    - page: Members
+      url: https://the-bond.github.io/Members/README.html
+      
+    - page: Rules
+    
 - title: Activities
-  url: https://the-bond.github.io/Activities/README.html
-  
-- title: Rules
-  url: 
   sub:
+    - page: Reading
+      url: https://the-bond.github.io/Activities/Reading.html
+  
+    - page: Writing
+      url: https://the-bond.github.io/Activities/Writing.html
+
+    - page: Other
+      url: 
