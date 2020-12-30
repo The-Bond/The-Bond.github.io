@@ -51,7 +51,7 @@
       <section id="main_content">
         {{ content }}
         {% for i in site.data.[page.data] %}
-        <h1>{{ i.title }}</h1>
+        <h2>{{ i.title }}</h2>
           {% for x in i.sub %}
             <li><a href="{{ x.url }}">{{ x.page }}</a></li>
           {% endfor %}
