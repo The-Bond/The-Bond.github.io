@@ -51,7 +51,7 @@
       <section id="main_content">
         {{ content }}
         <ul>
-          {% for i in site.data.[page.data] | sort: "no" %}
+          {% for i in site.data.[page.data].docs | sort: 'author' %}
           <li><a href="{{ i.url }}">{{ i.title }}</a></li>
           {% endfor %}
         </ul>
