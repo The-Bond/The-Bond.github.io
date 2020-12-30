@@ -50,7 +50,7 @@
 
       <section id="main_content">
         {{ content }}
-        {% assign doclist = site.data.[page.data].docs | sort: 'author'  %}
+        {% assign doclist = site.data.[page.data] | sort: 'author'  %}
         <ol>
           {% for i in doclist %}
           <li><a href="{{ i.url }}">{{ i.title }}</a></li>
