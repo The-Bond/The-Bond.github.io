@@ -50,11 +50,12 @@
 
       <section id="main_content">
         {{ content }}
-        <ul>
-          {% for i in site.data.[page.data] %}
-          <li><a href="{{ i.url }}">{{ i.title }}</a></li>
+        {% for i in site.data.[page.data] %}
+        <h1>{{ i.title }}</h1>
+          {% for x in i.sub %}
+            <li><a href="{{ x.url }}">{{ x.page }}</a></li>
           {% endfor %}
-        </ul>
+        {% endfor %}
         <hr />
         <a href="https://the-bond.github.io">Main Page</a>
       </section>
