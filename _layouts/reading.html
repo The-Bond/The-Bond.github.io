@@ -50,26 +50,13 @@
 
       <section id="main_content">
         {{ content }}
-        {% assign doclist = site.data.samplelist.docs | sort: 'author'  %}
+        {% assign doclist = site.data.[page.data].docs | sort: 'author'  %}
         <ol>
           {% for i in doclist %}
           <li><a href="{{ i.url }}">{{ i.title }}</a></li>
           {% endfor %}
         </ol>
         <hr />
-        
-        <!--
-        {% assign mydocs = site.docs | group_by: 'category' %}
-        {% for cat in mydocs %}
-        <h2>{{ cat.name | capitalize }}</h2>
-        <ul>
-          {% assign items = cat.items | sort: 'order' %}
-          {% for item in items %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-        {% endfor %}
--->
         <a href="https://the-bond.github.io">Main Page</a>
       </section>
 
