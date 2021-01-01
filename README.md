@@ -1,4 +1,4 @@
-# The-Bond.github.io Introduction
+# The-Bond.github.io
     |-About Us
     |   |-Members
     |   |-Rules
