@@ -4,7 +4,8 @@
       url: https://the-bond.github.io/About Us/Members.html
       
     - page: Rules
-    
+      url: https://the-bond.github.io/About Us/Rules.html
+      
 - title: Activities
   sub:
     - page: Reading
