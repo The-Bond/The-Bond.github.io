@@ -51,11 +51,9 @@
       <section id="main_content">
         {{ content }}
         {% assign doclist = site.data.[page.data] | sort: 'author'  %}
-        <ul>
-          {% for i in doclist %}
-          <li><a href="{{ i.url }}">{{ i.title }}</a></li>
-          {% endfor %}
-        </ul>
+        {% for i in doclist %}
+        <h2><a href="{{ i.url }}">{{ i.title }}</a></h2><p>by{{i.author}}</p>
+        {% endfor %}
         <hr />
         <a href="https://the-bond.github.io">Main Page</a>
       </section>
