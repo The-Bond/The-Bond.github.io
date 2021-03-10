@@ -1,12 +1,12 @@
 # The-Bond.github.io
 ```
 |-About Us
-|   |-Members
-|   |-Rules
+| |-Members
+| |-Rules
 |
 |-Activities
-|   |-Reading
-|   |-Writing
+| |-Reading
+| |-Writing
 |
 ```
 
